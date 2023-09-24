@@ -1,0 +1,183 @@
+
+/*=======================================
+       Basic Properties start
+
+
+       body
+{
+
+	height: 2000px;
+}
+==========================================*/
+
+
+*
+{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+
+/*=======================================
+       Slider Properties start
+==========================================*/
+
+.slider
+{
+	width: 100%;
+	height: 100vh;
+	background-image: url(..//img/login-background.jpg);
+	background-size: cover;
+	background-position: center;
+	position: absolute;	
+}
+
+.slider-overlay
+{
+	width: 100%;
+	height: 100%;
+	background : rgba(0,0,0,0.6);
+}
+
+
+/*=======================================
+       Login Page Properties start
+==========================================*/
+#perror
+{
+	position: relative;
+	margin-top:5px !important;
+	text-align: center;
+	color: rgb(255, 0, 0) !important; 
+	width: 150px;
+}
+#login-heading
+{
+	padding-right: 282px !important;
+	text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+header {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 6px;
+	margin-top:110px;
+	text-align: center;
+    font-size: 1200px;
+    text-transform: uppercase;
+    color: #000000;
+    letter-spacing: 2px;
+    font-family: "Playfair Display", serif;
+    font-weight:1000;
+	text-shadow: 1px 1px 2px rgb(20, 213, 207);
+}
+
+
+.modal-content
+{
+ position: relative !important;
+ margin:5% auto    !important;
+ height: 400px !important;
+ background: #fff !important;
+ box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+ margin-top:30px !important;
+ border-style: 	groove;
+}
+.left-box
+{
+	position: absolute !important;
+	top: -20px !important;
+	left:0 !important;
+	box-sizing: border-box !important;
+	padding: 40px !important;
+	width: 300px !important;
+	height: 400px !important;
+}
+
+input[type="text"]
+{
+	margin-bottom: 20px !important;
+	padding: 4px !important;
+	width: 220px !important;
+	height: 32px !important;
+	border: none !important;
+	outline: none !important;
+	border-bottom: 1px solid #aaa !important;
+	font-weight: 400px !important;
+	font-size: 15px !important;
+	transition: 0.5s ease-in !important;
+}
+
+#btn-login
+{
+	margin-top: 20px;
+	width:120px !important;
+	height: 32px !important;
+	border: none !important;
+	border-radius: 2px !important;
+	color: #fff !important;
+	font-weight:500px !important;
+	text-transform: uppercase !important;
+	transition: 0.5 ease-in !important;
+	cursor: pointer !important;
+	position: relative !important;
+	background-color: orangered !important;
+	margin-left: 5px;
+	padding-top: 0px !important;
+
+
+}
+
+#btn-login:hover
+{
+	cursor: pointer !important;
+}
+
+.register h2
+{
+	margin-left: -10px;
+	width: 250px;
+	padding-top: 0px;
+	font-size: 16px;
+}
+#create-account a
+{
+	text-decoration: none;
+	color: black;
+	
+}
+
+.right-box
+{
+	position: absolute !important;
+	margin-top:-71.5px !important;
+	right: 0 !important;
+	box-sizing: border-box !important;
+	padding: 40px !important;
+	width: 300px !important;
+	height: 399px !important;
+	background-image: url(..//img/login.jpg);
+	background-size: cover !important;
+	border-radius: 5px;
+	;
+
+}
+
+.right-box .signinwith
+{
+	display: block;
+	margin-bottom: 10px;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+}
+
+
+
+
+

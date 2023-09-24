@@ -1,0 +1,141 @@
+.slider1 {
+    /*margin-top:80px; */
+}
+
+.slider1 .owl-controls1 {
+}
+
+.all-slide1 .owl-item1{
+    height: 700px;
+}
+
+.all-slide1 .single-slide1 {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.slider1-text1 {
+    left: 0;
+    margin: 0 auto;
+    position: relative;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    width: 1170px;
+    padding: 10px 0;
+}
+
+.slider1-caption1 span.subtitle1 {
+    color: #333;
+    font-size: 24px;
+    text-transform: capitalize;
+    padding-top: 30px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.slider1-text1 h1 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 0;
+    display: block;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+}
+
+.slider1-text1 h2 {
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+}
+
+.slider1-text1 p {
+    color: #fff;
+}
+
+.slider1-text1 a {
+    background: #fff;
+    color: #333;
+    display: inline-block;
+    padding: 10px 15px;
+    text-transform: capitalize;
+    position: relative;
+    z-index: 5;
+    transition: 0.5s;
+    margin-top: 10px;
+}
+
+.slider1-text1 a:hover {
+    background: #245e9c;
+    color: #fff;
+    transition: all 0.4s ease 0s;
+}
+
+.all-slide1 .owl-controls1 {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    z-index: 99;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.all-slide1 .owl-controls1 .owl-buttons1 div {
+    background: none;
+    opacity: 1.00;
+}
+
+.all-slide1 .owl-controls1 .owl-prev1 {
+    position: absolute;
+    transition: all 0.4s ease 0s;
+    opacity: 0;
+}
+
+.all-slide1:hover .owl-prev1{
+    transition: all 0.4s ease 0s;
+    left: 0;
+    opacity: 1;
+}
+
+.all-slide1 .owl-controls1 .owl-next1 {
+    position: absolute;
+    transition: all 0.4s ease 0s;
+    opacity: 0;
+}
+
+.all-slide1:hover .owl-next1 {
+    transition: all 0.4s ease 0s;
+    right: 0;
+    opacity: 1;
+}
+
+.all-slide1 .owl-controls1 .owl-prev1 i, .all-slide1 .owl-controls1 .owl-next1 i {
+    color: #fff;
+    font-size: 30px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    transition: all 0.5s ease-out 0s;
+    width: 40px;
+}
+
+.all-slide1 .owl-controls1 .owl-next1 i:hover {
+    transition: all 0.5s ease-out 0s;
+    color: #999;
+}
+
+.all-slide1 .owl-controls1 .owl-prev1 i:hover {
+    transition: all 0.5s ease-out 0s;
+    color: #999;
+}
+
+.all-slide1 .owl-dots1 {
+    display: none !important;
+}
